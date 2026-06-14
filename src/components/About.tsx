@@ -20,7 +20,7 @@ export default function About() {
           {/* Text */}
           <div>
             <img
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photo.jpg`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photo.JPG`}
               alt="Rafi Azmi Zafarani"
               className="w-full max-w-xs rounded-2xl border border-emerald-500/30 shadow-lg shadow-emerald-500/10 mb-8"
             />
