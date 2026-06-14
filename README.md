@@ -1,10 +1,12 @@
-# Portofolio - Rafi Azmi Zafarani
+# Portofolio - Rafi Azmi Zafarani - 18224082
+
+https://azmisynth.github.io/portofolio
 
 Website portofolio pribadi yang saya buat untuk menampilkan proyek dan latar belakang di bidang Data Science, Machine Learning, dan Deep Learning.
 
 ## Tentang proyek ini
 
-Website ini dibangun menggunakan Next.js dan di-deploy sebagai static site ke GitHub Pages. Tujuannya sederhana: punya satu tempat yang rapi untuk menampilkan proyek yang sudah dikerjakan selama kuliah, lengkap dengan informasi kontak dan riwayat pengalaman.
+Website ini dibangun menggunakan Next.js dan di-deploy sebagai static site ke GitHub Pages. Tujuannya sederhana: punya satu tempat yang rapi untuk menampilkan portofoilio, lengkap dengan informasi kontak dan riwayat pengalaman.
 
 Konfigurasi `output: "export"` di Next.js membuat seluruh halaman di-render menjadi HTML statis saat build. Tidak ada server yang berjalan saat dibuka, jadi bisa di-hosting di mana saja termasuk GitHub Pages.
 
@@ -37,42 +39,10 @@ src/
 
 Satu halaman penuh (single-page) yang terbagi menjadi beberapa section: Header (navigasi), Hero (tampilan utama), About (profil singkat), Experience (pengalaman), Projects (proyek), dan Contact (kontak).
 
-Tiga proyek yang ditampilkan:
-
-- AlphaFold 2 Ligand Discovery: memanfaatkan AlphaFold 2 untuk identifikasi ligan baru dalam konteks pasca kemoterapi, menggabungkan prediksi struktur protein dengan pendekatan drug discovery komputasional
-- Health Insurance Predictive Model: memprediksi frekuensi dan keparahan klaim asuransi kesehatan menggunakan feature engineering dan ensemble model berbasis XGBoost
-- Tuberculosis Diagnostic AI: CNN berbasis TensorFlow untuk diagnosis tuberkulosis dari citra medis, disertai analisis performa dan persepsi sosial terhadap teknologi ini
-
-## Cara menjalankan
-
-Install dependensi:
-
-```bash
-npm install
-```
-
-Jalankan server pengembangan:
-
-```bash
-npm run dev
-```
-
-Buka `http://localhost:3000/portofolio` di browser.
-
-Untuk build produksi:
-
-```bash
-npm run build
-```
-
-Output statis tersimpan di folder `out/`.
-
 ## Deployment
 
 Setiap push ke branch `main` langsung memicu GitHub Actions yang build dan deploy ke GitHub Pages secara otomatis, tanpa langkah manual.
 
-## Kontak
+# Video Penjelasan
 
-- Email: rafiazmizafarani@gmail.com
-- GitHub: github.com/Azmisynth
-- LinkedIn: linkedin.com/in/rafiazmizafarani
+https://youtu.be/7DJslnmYS6k
